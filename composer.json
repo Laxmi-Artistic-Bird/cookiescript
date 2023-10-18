@@ -14,5 +14,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --tag=cookiescript --force",
+            "php artisan vendor:publish --tag=cookieview --force"
+        ]
+    }
 }
