@@ -30,9 +30,6 @@ class CookieScriptServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-            Artisan::call('vendor:publish', [
-                '--tag' => 'cookiescript',
-                '--force' => true,
-            ]);
+
     }
 }
