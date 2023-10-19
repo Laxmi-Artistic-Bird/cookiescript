@@ -15,10 +15,16 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Artisticbird\\Cookiescript\\CookieScriptServiceProvider"
+            ]
+        }
+    },
     "scripts": {
         "post-install-cmd": [
-            "php artisan vendor:publish --tag=cookiescript --force",
-            "php artisan vendor:publish --tag=cookieview --force"
+            "php artisan vendor:publish --tag=cookiescript --force"
         ]
     }
 }
