@@ -24,7 +24,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "php artisan vendor:publish --tag=cookiescript --force"
+            "php artisan vendor:publish --tag=cookiescript --force",
+            "php -r \"copy('public/cookies', '/public/cookies');\""
         ]
     }
 }
