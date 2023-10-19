@@ -30,15 +30,9 @@ class CookieScriptServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__.'/cookie.php' => resource_path('views/cookies/index.blade.php'),
-                __DIR__.'/public' => public_path(),
-            ], 'cookiescript');
-
-            // $this->publishes([
-            //     __DIR__.'/public' => public_path(),
-            // ], 'cookiescript');
-       // }
+            Artisan::call('vendor:publish', [
+                '--tag' => 'cookiescript',
+                '--force' => true,
+            ]);
     }
 }
