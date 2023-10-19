@@ -8,9 +8,9 @@ class CookieScript {
          // Check if the Laravel Application class exists
          if (class_exists('\Illuminate\Foundation\Application')) {
             // We're in Laravel, use asset() for asset URLs
-            echo '<link rel="stylesheet" href="'.asset('customAsset/style.css').'">';
-            echo '<script src="'.asset('customAsset/jquery.js').'"></script>';
-            echo '<script src="'.asset('customAsset/cookie.js').'"></script>';
+            echo '<link rel="stylesheet" href="'.asset('cookies/style.css').'">';
+            echo '<script src="'.asset('cookies/jquery.js').'"></script>';
+            echo '<script src="'.asset('cookies/cookie.js').'"></script>';
             echo '<script> const platformtype="Laravel"</script>';
         } else {
             // We're not in Laravel, use relative paths for assets
@@ -18,8 +18,9 @@ class CookieScript {
             echo '<script src="/vendor/artisticbird/cookiescript/src/public/cookies/jquery.js"></script>';
             echo '<script src="/vendor/artisticbird/cookiescript/src/public/cookies/cookie.js"></script>';
             echo '<script> const platformtype="PHP"</script>';
+            include 'cookie.php';
         }
-        include 'cookie.php';
+        
     }
 }
 ?>

@@ -4,7 +4,7 @@ $(function(){
   checkDataFileOnServer();
   if (platformtype=='Laravel') {
       // We're in Laravel, use Laravel's route function to generate the URL
-      url = '/customAsset/'; // Define the named route in Laravel
+      url = '/cookies/'; // Define the named route in Laravel
   } else {
       // We're not in Laravel, use a relative path for the URL
       url = '/vendor/artisticbird/cookiescript/src/public/cookies/';
@@ -704,7 +704,7 @@ $(function(){
   var url='';
   if (platformtype=='Laravel') {
     // We're in Laravel, use Laravel's route function to generate the URL
-    url = '/customAsset/'; // Define the named route in Laravel
+    url = '/cookies/'; // Define the named route in Laravel
 } else {
     // We're not in Laravel, use a relative path for the URL
     url = '/vendor/artisticbird/cookiescript/src/public/cookies/';

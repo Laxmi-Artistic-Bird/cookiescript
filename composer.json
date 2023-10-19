@@ -23,7 +23,7 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
+        "post-root-package-install": [
             "php artisan vendor:publish --tag=cookiescript --force"
         ]
     }

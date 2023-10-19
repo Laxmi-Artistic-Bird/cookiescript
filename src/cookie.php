@@ -1,10 +1,18 @@
 
 <?php
 if (class_exists('\Illuminate\Foundation\Application')) {
-    $mainurl = '/customAsset/';
+    $mainurl = '/cookies/';
  }else{
     $mainurl='/vendor/artisticbird/cookiescript/src/public/cookies/';
  }
+
+$domain = $_SERVER['HTTP_HOST'];
+if (!isset($_COOKIE['cookiesRejected'])) {
+     setcookie('cookiesRejected', 'false', time() + 3600, '/', '.'.$domain, isset($_SERVER['HTTPS']), true);
+     $consent_value = 'consentid:SFdTT1lNNkdpQ2J5OUE4bXY1WWZOWHo1cDlnbExaSFg,necesario:' . 'true' . ',rendimiento:' . ($rendimiento??'') . ',marketing:' . ($marketing??'');
+     setcookie('aeon-consent', $consent_value, time() + (86400 * 30), '/', '.'.$domain, isset($_SERVER['HTTPS']), true);
+}
+
 ?>
 
 <?php if (isset($_COOKIE['cookiesRejected']) && $_COOKIE['cookiesRejected'] === 'false') { ?>
