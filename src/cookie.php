@@ -33,8 +33,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 data-cs-i18n-read="We use cookies to improve user experience. Choose what cookies you allow us to use. You can read more about our Cookie Policy in our">
                 Esta cookie está asociada con Google Analytics y se utiliza para la personalización de anuncios.
                 Elige qué cookies nos permites usar. Puedes leer más<b> <u><a 
-                            href="/politica-de-privacidad" class="mr-2">Política de Privacidad</a><a
-                            href="/politica-de-cookies">Politica-de-Cookies</a>
+                            href="#" class="mr-2">Política de Privacidad</a> <br> <a
+                            href="#">Politica-de-Cookies</a>
 
                         <!-- cookies -->
                     </u></b></p>
