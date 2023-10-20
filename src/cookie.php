@@ -80,8 +80,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     de cookies</a>. </div>
         </div>
     </div>
-    <div style="font-size:9px; text-align:right">Cookie creada por <a href="https://www.artisticbird.com/"
-            target="_blank" style="color:white">ArtisticBird</a></div>
+    <div style="font-size:9px; text-align:right">Cookie creada por <a href="https://entraenlared.com/"
+            target="_blank" style="color:white">Entraenlared</a></div>
 </div>
 <div id="gdprcript_badge" style="display:none;">
 
