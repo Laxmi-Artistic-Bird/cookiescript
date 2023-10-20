@@ -301,7 +301,10 @@ $(function(){
     
     // Send the POST request with the data
     xhr.send(data);
-  
+    consentType={
+      'Rendimiento':false,'Marketing':false,'Necesario':true
+    }
+       document.cookie = `consent=${JSON.stringify(consentType)}; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/`;
     deleteAllCookiesExceptRejected();
     deleteCookies();
     // showbadge();
