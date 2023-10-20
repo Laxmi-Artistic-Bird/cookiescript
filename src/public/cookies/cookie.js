@@ -598,7 +598,7 @@ $(function(){
   
     // Show the element with id '#gdprcript_badge'
     const badgeElement = document.getElementById('gdprcript_badge');
-    badgeElement.style.display = 'block';  
+    badgeElement.style.display = 'flex';  
   }
   function hidebadge(){
       // Hide elements inside '#gdprcript_injected .wrap'
