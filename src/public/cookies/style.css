@@ -3,7 +3,7 @@
 #gdprcript_injected #gdprcript_badge #gdprcript_badgeimage {width: 30px; height: 30px; }
 #gdprcript_injected #gdprcript_badge #gdprcript_badgetext {font-size:16px;line-height:1.95;max-width:0;text-transform:uppercase;font-weight:600;overflow:hidden;transition-duration:500ms;white-space:nowrap;padding-right:0;color:#FFFFFF;}
 #gdprcript_injected #gdprcript_badge:hover #gdprcript_badgetext { max-width:300px;padding-right:9px;padding-left:6px;}
-#gdprcript_injected .wrap{  background-color: #4c4c4c; max-height: 400px;overflow: auto;  padding: 15px; border-radius: 10px; box-shadow: 0 0 10px 0 #000000;  opacity: 1; font-size: 14px; font-weight: normal;  font-family: "Open Sans", Arial, "Trebuchet MS", "Segoe UI", "Helvetica", sans-serif; line-height: 1.7; color: #FFFFFF; box-sizing: border-box; position: relative;}
+#gdprcript_injected .wrap{  background-color: #4c4c4c; max-height: 500px;overflow: auto;  padding: 15px; border-radius: 10px; box-shadow: 0 0 10px 0 #000000;  opacity: 1; font-size: 14px; font-weight: normal;  font-family: "Open Sans", Arial, "Trebuchet MS", "Segoe UI", "Helvetica", sans-serif; line-height: 1.7; color: #FFFFFF; box-sizing: border-box; position: relative;}
 #gdprcript_injected #gdprcript_header {font-size: 1.1rem;}
 #gdprcript_injected #gdprcript_description {font-size: 0.7rem; color:#e4e4e4;}
 #gdprcript_injected #gdprcript_description a {text-decoration: none; color: #e4e4e4;}
