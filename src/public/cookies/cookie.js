@@ -2,23 +2,7 @@ $(function(){
   var fileData;
   var url;
 
-  function checkCookie(cookieName) {
-    var cookies = document.cookie.split(';');
-    for (var i = 0; i < cookies.length; i++) {
-        var cookie = cookies[i].trim();
-        if (cookie.indexOf(cookieName + '=') === 0) {
-            // Cookie exists
-            return true;
-        }
-    }
-    // Cookie doesn't exist
-    return false;
-}
-
-var cookieName = 'consent';
-if (checkCookie(cookieName)) {
-  showbadge();
-}
+  
 
   checkDataFileOnServer();
   if (platformtype=='Laravel') {
