@@ -270,7 +270,7 @@ if (checkCookie(cookieName)) {
         var cookiePair = c.split("=");
         cookies.push({ name: cookiePair[0], value: cookiePair[1] });
         setCookie(cookiePair[0], cookiePair[1], 1);
-        console.log(cookiePair[0]);
+        
     }
     return cookies;
    
@@ -344,7 +344,6 @@ if (checkCookie(cookieName)) {
         if (name !== 'cookiesRejected') {
             document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+getDomainFromURL()+"; secure; samesite=strict";
   
-            console.log(document.cookie);
         }
     }
   }
@@ -563,7 +562,7 @@ if (checkCookie(cookieName)) {
       url: url+'processconsent.php',
       data: { consentType: consentType, Type: Type },
       success: function (response) {
-       console.log(response); // Log the server's response
+      //  console.log(response); // Log the server's response
       },
       error: function (error) {
         console.error("An error occurred:", error);
@@ -582,12 +581,12 @@ if (checkCookie(cookieName)) {
     // Convert the JavaScript object to JSON string
     var jsonData = JSON.stringify(consentType);
   
-    console.log(jsonData);
+    // console.log(jsonData);
   
     xhr.onload = function() {
         if (xhr.status >= 200 && xhr.status < 400) {
             // Server successfully received the data
-            console.log(xhr.responseText);
+            //console.log(xhr.responseText);
         } else {
             // Handle errors here
             console.error('Request failed with status:', xhr.status);
@@ -763,7 +762,7 @@ if (checkCookie(cookieName)) {
   
   // Define a function to handle the API request
   function handleApiRequest(proxyurl, domain) {
-    console.log('Before API Request'); // Debugging: Check if function is being called
+    //console.log('Before API Request'); // Debugging: Check if function is being called
     // console.log(domain);
     $.ajax({
       url: proxyurl,
@@ -786,7 +785,7 @@ if (checkCookie(cookieName)) {
   
             // Loop through the parsed details and process each item
             parsedDetails.forEach(function(details) {
-              console.log(details);
+              //console.log(details);
             
               // Access individual properties
               var domain = details.domain;
@@ -812,7 +811,7 @@ if (checkCookie(cookieName)) {
             console.error('Error parsing JSON:', error);
           }
         } else {
-          console.log('Response structure:', data);
+          //console.log('Response structure:', data);
           console.error('Invalid or empty response received.');
         }
       },
@@ -833,7 +832,7 @@ if (checkCookie(cookieName)) {
       data: JSON.stringify(dataToSave),
       
       success: function(response) {
-        console.log('Data saved successfully:', response);
+        //console.log('Data saved successfully:', response);
       },
       error: function(xhr, status, error) {
         console.error('Error saving data:', error);
