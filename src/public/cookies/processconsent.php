@@ -49,7 +49,7 @@ $responseArray = json_decode($response, true); // Decode the JSON response
 
 // Check if the response array is not empty
 if (!empty($responseArray['data'])) {
-    echo "test";
+  
     // Update data.txt with the API response
     $dataFilePath = "data.txt";
    
