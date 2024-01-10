@@ -1,9 +1,9 @@
 
 <?php
 if (class_exists('\Illuminate\Foundation\Application')) {
-    $mainurl = '/cookies/';
+    $mainurl = '/cookiesscript/';
  }else{
-    $mainurl='/vendor/artisticbird/cookiescript/src/public/cookies/';
+    $mainurl='/vendor/artisticbird/cookiescript/src/public/cookiesscript/';
  }
 
 $domain = $_SERVER['HTTP_HOST'];
