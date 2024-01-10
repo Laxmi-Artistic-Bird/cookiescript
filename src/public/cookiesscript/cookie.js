@@ -23,10 +23,10 @@ if (checkCookie(cookieName)) {
   checkDataFileOnServer();
   if (platformtype=='Laravel') {
       // We're in Laravel, use Laravel's route function to generate the URL
-      url = '/cookiesscript/'; // Define the named route in Laravel
+      url = '/cookies/'; // Define the named route in Laravel
   } else {
       // We're not in Laravel, use a relative path for the URL
-      url = '/vendor/artisticbird/cookiescript/src/public/cookiesscript/';
+      url = '/vendor/artisticbird/cookiescript/src/public/cookies/';
   }
   
   // window.onload = function () {
@@ -725,10 +725,10 @@ if (checkCookie(cookieName)) {
   var url='';
   if (platformtype=='Laravel') {
     // We're in Laravel, use Laravel's route function to generate the URL
-    url = '/cookiesscript/'; // Define the named route in Laravel
+    url = '/cookies/'; // Define the named route in Laravel
 } else {
     // We're not in Laravel, use a relative path for the URL
-    url = '/vendor/artisticbird/cookiescript/src/public/cookiesscript/';
+    url = '/vendor/artisticbird/cookiescript/src/public/cookies/';
 }
     var apiEndpoint = 'https://' + currentDomain + '/'+url+'data.txt'; // Construct the API URL
     // console.log(apiEndpoint);
