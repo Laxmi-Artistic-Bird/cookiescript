@@ -1,0 +1,30 @@
+{
+    "name": "artisticbird/cookiescript",
+    "description": "This will used to accept and save website cookies.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artisticbird\\Cookiescript\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artisticbird"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Artisticbird\\Cookiescript\\CookieScriptServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --tag=cookiescript --force"
+        ]
+    }
+}
