@@ -23,7 +23,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5CLDPS7');</script>
 <?php } ?>
 
-<!-- <link rel="stylesheet" href="custom/style.css"> -->
+
 <div id="gdprcript_injected"><a></a>
 <div class="wrap" style=""><a>
         <div id="gdprcript_header">Este sitio web utiliza cookies</div>
