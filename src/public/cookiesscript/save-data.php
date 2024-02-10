@@ -1,6 +1,7 @@
 <?php
 $request_url = $_SERVER['REQUEST_URI'];
-
+// echo $request_url;
+// exit;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Get the POST data sent from JavaScript
     $postData = file_get_contents("php://input");

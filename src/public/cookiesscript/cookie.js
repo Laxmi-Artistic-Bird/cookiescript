@@ -674,7 +674,7 @@ if (checkCookie(cookieName)) {
     // Toggle visibility of span elements inside '#gdprcript_manage'
     const spanElements = document.querySelectorAll('#gdprcript_manage>span');
     spanElements.forEach(span => {
-      span.style.display = (span.style.display === 'none' || span.style.display === '') ? 'inline' : 'none';
+      span.style.display = "none" === span.style.display ? 'inline' : 'none';
     });
   
     // Toggle 'active' class on '#gdprcript_injected'
