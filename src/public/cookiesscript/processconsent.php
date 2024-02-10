@@ -27,7 +27,7 @@ $consentData = array(
     "data" => $consentType
 );
 
-print_r($consentData);
+// print_r($consentData);
 // exit;
 
 // cURL request to API
@@ -43,7 +43,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 curl_close($ch);
-print_r($response);
+// print_r($response);
 // Process the API response
 $responseArray = json_decode($response, true); // Decode the JSON response
 

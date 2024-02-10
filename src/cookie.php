@@ -57,8 +57,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <div id="gdprcript_cookietablewrap" style="display: none;">
         <div id="gdprcript_maintabs" data-cs-maintabs="gdprcript">
-            <div id="gdprcript_declaration" class="gdprscript_active" data-maintab="declaration">Declaración de
-                cookies </div>
+            <div id="gdprcript_declaration" class="gdprscript_active" data-maintab="declaration">Declaración de cookies </div>
             <div id="gdprcript_aboutcookies" data-maintab="aboutcookies">Acerca de las cookies </div>
         </div>
         <div id="gdprcript_tabscontent">
