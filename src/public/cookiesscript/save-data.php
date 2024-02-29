@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($dataToSave !== null) {
         // Open the file for writing (append mode)
         $filename = 'data.txt';
-        $file = fopen($filename, 'a');
+        $file = fopen($filename, 'w');
         
         // Loop through the data and write each entry to the file
         // foreach ($dataToSave as $entry) {
