@@ -52,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id="gdprcript_close" tabindex="0" role="button">×</div>
     <div id="gdprcript_manage_wrap" tabindex="0" role="button">
         <div id="gdprcript_manage">
-            <span class="show" style="display: block;">Mostrar detalles</span> <span style="display: none" class="hide">Ocultar detalles</span>
+            <span style="display: block;">Mostrar detalles</span> <span style="display: none">Ocultar detalles</span>
         </div>
     </div>
     <div id="gdprcript_cookietablewrap" style="display: none;">
