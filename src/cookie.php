@@ -77,7 +77,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
     <div style="font-size:9px; text-align:right"><a href="https://www.entraenlared.com/"
-            target="_blank" style="color:white">Desarrollo web </a>Entra en la Red</div>
+            target="_blank" style="color:white">Desarrollo web</a> por Entra en la Red</div>
 </div>
 <div id="gdprcript_badge" style="display:none;">
 
